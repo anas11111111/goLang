@@ -3,7 +3,7 @@ package main
 import "fmt"
 func main(){
 	nums:= [4]int{2,7,11,15}
-	var target int =9
+	var target int = 9
 	res:=twoSum(nums[:],target)
 	fmt.Println(res)
 
